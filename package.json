@@ -1,0 +1,28 @@
+{
+  "name": "discord-music",
+  "version": "1.0.0",
+  "description": "node main ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "discord-buttons": "^4.0.0",
+    "discord-together": "^1.1.14",
+    "discord.js": "^12.5.3",
+    "node-gyp": "^8.0.0",
+    "opusscript": "0.0.8",
+    "websocket": "^1.0.34",
+    "youtube-search-api": "^1.0.10",
+    "ytdl-core": "^4.8.3"
+  }
+}
